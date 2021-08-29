@@ -3,4 +3,7 @@ project(vault)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(vault Sorting/MergeSort.cpp)
+
+add_executable(HeapSort sorting/HeapSort.cpp)
+add_executable(MergeSort sorting/MergeSort.cpp)
+add_executable(Heap data-structures/Heap.cpp)
